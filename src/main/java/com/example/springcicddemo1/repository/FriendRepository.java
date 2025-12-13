@@ -1,0 +1,8 @@
+package com.example.springcicddemo1.repository;
+
+import com.example.springcicddemo1.entity.Friend;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface FriendRepository extends JpaRepository<Friend, Integer> {
+
+}
