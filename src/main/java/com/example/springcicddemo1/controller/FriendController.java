@@ -3,7 +3,6 @@ package com.example.springcicddemo1.controller;
 import com.example.springcicddemo1.entity.Friend;
 import com.example.springcicddemo1.service.FriendService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
