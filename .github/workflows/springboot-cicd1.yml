@@ -8,7 +8,7 @@ env:
   # Docker Hub 계정 정보 (GitHub Secrets에 저장된 값을 사용)
   DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
   # 최종 도커 이미지 이름 (Docker Hub 저장소 경로: cheonbosic/cicdtest1)
-  IMAGE_NAME: cheonbosic/cicdtest1
+  IMAGE_NAME: minjae1229/cicdtest1
   # Spring Boot 프로젝트의 JAR 파일 이름 (Dockerfile의 ARG와 일치)
   JAR_NAME: springcicddemo1.jar
   EC2_HOST: ${{ secrets.EC2_HOST }}
