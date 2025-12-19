@@ -33,7 +33,7 @@ services:
 
   # 2. Spring Boot 애플리케이션 서비스(git에 push할때는 아래 app앞의 #을 제거시켜준다.(35~50번행)
   app:
-    image: cheonbosic/cicdtest1:latest
+    image: minjae1229/cicdtest1:latest
     container_name: spring-boot-app
 
     environment:
